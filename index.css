@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+/* navbar CSS */
+#navigation_bar{
+    /* height: 30px;
+    width: 100%; */
+    /* border: 10px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+#in{
+    margin-right: 20px;
+}
+#up{
+    margin-right: 250px;
+}
+/* navbar CSS complete */
+/* top banner */
+#top_banner{
+    height: 750px;
+    width: 100%;
+    /* border: 10px solid red; */
+    /* padding-bottom: 100px; */
+}
+/* top banner complete */
+/* home pannel between navbar and top banner */
+#home_Pannel{
+    display: flex;
+    background-color: #eef2fa;
+    height: 100px;
+    width: 100%;
+    /* justify-content: center; */
+}
+#home{
+    height: 100px;
+    width: 100px;
+    padding: 1;
+    margin-left: 200px;
+}
+#Mobile{
+    height: 100px;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 200px;
+    justify-content: space-around;
+}
+#Redmi_Phones{
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#audio{
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#xiomi_Phones{
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+
+/* home pannel between navbar and top banner complete */
+/* phones redmi */
+#mimi{
+    display: flex;
+    /* border: 10px solid red; */
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#mimiphn{
+    margin: auto;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #e0e0e0;
+}
+/* .item1{
+    grid-area: 1;
+}
+.item2{
+    grid-area: 2;
+}
+.item3{
+    grid-area: 3;
+}
+.item4{
+    grid-area: 4;
+}
+.star{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    '1 1 2 3'
+    '1 1 2 3'
+    '1 1 4 4'
+    '1 1 4 4'
+    /* '1 1 1 1 4 4 4 4'
+    '1 1 1 1 4 4 4 4'
+    '1 1 1 1 4 4 4 4'
+    '1 1 1 1 4 4 4 4' ;
+    gap: 10px;
+    background-color: aqua;
+    border: 10px solid red;
+    height: 500px;
+    padding: 10px;
+}
+.star > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+.item1 { grid-area: pic1; }
+.item2 { grid-area: pic2; }
+.item3 { grid-area: pic3; }
+.item4 { grid-area: pic4; }
+.star {
+    padding-top: 100px;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+      'pic1 pic1 pic1 pic1 pic2 pic2 pic3 pic3'
+      'pic1 pic1 pic1 pic1 pic2 pic2 pic3 pic3'
+      'pic1 pic1 pic1 pic1 pic4 pic4 pic4 pic4'
+      'pic1 pic1 pic1 pic1 pic4 pic4 pic4 pic4';
+    gap: 10px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+  }
+  
+  .star > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
