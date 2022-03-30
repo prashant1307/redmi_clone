@@ -26,17 +26,17 @@ body{
 /* navbar CSS complete */
 /* top banner */
 #top_banner{
-    height: 750px;
+    height: 50%;
     width: 100%;
     /* border: 10px solid red; */
-    /* padding-bottom: 100px; */
+    padding-bottom: 5%;
 }
 /* top banner complete */
 /* home pannel between navbar and top banner */
 #home_Pannel{
     display: flex;
     background-color: #eef2fa;
-    height: 100px;
+    height: 80px;
     width: 100%;
     /* justify-content: center; */
 }
@@ -47,7 +47,7 @@ body{
     margin-left: 200px;
 }
 #Mobile{
-    height: 100px;
+    height: 100%;
     width: 1200px;
     /* border: 2px solid red; */
     margin-left: 200px;
@@ -55,7 +55,7 @@ body{
 }
 #Redmi_Phones{
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 10%;
     cursor: pointer;
     height: 30px;
     border-radius: 10%;
@@ -63,7 +63,7 @@ body{
 }
 #audio{
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 20%;
     cursor: pointer;
     height: 30px;
     border-radius: 10%;
@@ -71,7 +71,7 @@ body{
 }
 #xiomi_Phones{
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 20%;
     cursor: pointer;
     height: 30px;
     border-radius: 10%;
@@ -84,15 +84,22 @@ body{
     display: flex;
     /* border: 10px solid red; */
     height: 300px;
-    width: 60%;
-    margin: auto;
+    width: 90%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     padding-bottom: 30px;
 }
 #mimiphn{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 h2{
-    margin-top: 100px;
+    margin-top: 10%;
     text-align: center;
     font-size: 50px;
     color: #e0e0e0;
@@ -138,9 +145,10 @@ h2{
 .item3 { grid-area: pic3; }
 .item4 { grid-area: pic4; }
 .star {
+    /* border: 1px solid red; */
     padding-top: 100px;
-    height: 900px;
-    width: 60%;
+    height: 50%;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-areas:
@@ -161,7 +169,7 @@ h2{
   }
   .connect{
       height: 10px;
-      width: 60%;
+      width: 80%;
       /* border: 1px solid red; */
       margin: auto;
       display: flex;
@@ -171,11 +179,15 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
   }
   .mail{
-      margin-left: 30px;
+      height: 30px;
+      width: 25%;
+      /* border: 1px solid black; */
+      margin-left: 3%;
       width: 25%;
   }
   #mail{
-      height: 30px;
+      /* border: 1px solid red; */
+      height: 100%;
       width: 80%;
   }
   .follow{
@@ -196,7 +208,7 @@ h2{
   }
   .shop{
       /* display: inline; */
-      margin-left: 400px;
+      margin-left: 10%;
       margin-top: 50px;
       /* margin: auto; */
   }
@@ -215,9 +227,7 @@ h2{
       margin-left: 100px;
       margin-top: 50px;
   }
-  h4{
-      /* color: white; */
-  }
+ 
   a{
       color: white;
   }
