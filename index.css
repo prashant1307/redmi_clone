@@ -139,7 +139,7 @@ h2{
 .item4 { grid-area: pic4; }
 .star {
     padding-top: 100px;
-    height: 500px;
+    height: 900px;
     width: 60%;
     margin: auto;
     display: grid;
@@ -150,7 +150,7 @@ h2{
       'pic1 pic1 pic1 pic1 pic4 pic4 pic4 pic4';
     gap: 10px;
     /* background-color: #2196F3; */
-    /* padding: 10px; */
+    padding-bottom: 100px;
   }
   
   .star > div {
@@ -158,4 +158,69 @@ h2{
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+  }
+  .connect{
+      height: 10px;
+      width: 60%;
+      /* border: 1px solid red; */
+      margin: auto;
+      display: flex;
+      padding-bottom: 50px;
+  }
+  .n123{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mail{
+      margin-left: 30px;
+      width: 25%;
+  }
+  #mail{
+      height: 30px;
+      width: 80%;
+  }
+  .follow{
+      display: flex;
+      /* border: 1px solid red; */
+      margin: auto;
+      justify-content: space-around;
+      /* margin-left: 100px; */
+      width: 15%;
+  }
+  .bottom{
+      color: white;
+      display: flex;
+      height: 300px;
+      width: 100%;
+      background-color: black;
+      /* margin: auto; */
+  }
+  .shop{
+      /* display: inline; */
+      margin-left: 400px;
+      margin-top: 50px;
+      /* margin: auto; */
+  }
+  .support{
+      /* margin: auto; */
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+  .connectUs{
+      /* margin: auto; */
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+  .aboutUs{
+      /* margin: auto; */
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+  h4{
+      /* color: white; */
+  }
+  a{
+      color: white;
+  }
+  ul{
+      list-style-type: none;
   }
