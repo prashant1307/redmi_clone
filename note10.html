@@ -238,20 +238,21 @@
     font-size: 13px;
 }
 #boys{
+   
     height: 700px;
     margin-top: -5px;
     width: auto;
    color: white;
     text-align: center;
-   border: 1px solid red;
-    background-image: url(https://media.bnn.in.th/media/6934177735844/Xiaomi-Smartphone-Redmi-Note-10-%286%2B128%29-Pebble-White-Content10.jpg);
+border: 1px solid rgb(246, 244, 248);
+    background-image: url(https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section08.jpg);
     background-repeat: no-repeat;
 
-    background-size: 1420px 700px;
+    background-size: 100% 100%;
 
 }
 #boys>h1{
- margin-top: 50px;
+
 }
 #mode{
     margin:auto;
@@ -275,10 +276,12 @@
 }
 #dark{
     color: white;
+    
  text-align: center;
  padding-top: 30px;
  background-color: black;
 }
+
 #selfie{
     text-align: center;
 }
@@ -290,15 +293,77 @@
 }
 #look{
   
-    display: flex;
-
-    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "a a b"
+                         "c c b";
+gap: 10px;
+    width: 55%;
     margin: auto;
+    margin-top: 70px;
 
 }
-#look>div{
-    border: 1px solid red;
+.item1{
+grid-area: a;
 }
+.item2{
+    grid-area: b;
+
+}
+.item3{
+    grid-area: c;
+
+}
+
+#hand{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 300px;
+    width: 80%;
+    justify-content: space-between;
+ 
+}
+#handp{
+    width: 350px;
+    
+}
+#side{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+#unlock{
+    margin-top: 10%;
+}
+#three{
+    background-image: url(https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section01bg.jpg);
+  height: 250px;
+  background-size: 90%;
+  background-position:-200px;
+  margin-top: 100px;
+}
+#three>h2{
+  padding-left: 80%;
+  padding-top: 6%;
+}
+
+#ul{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+#hz{
+    display: flex;
+    margin-left: 20%;
+   margin-bottom: 50px;
+}
+
+
     </style>
 </head>
 <body>
@@ -366,9 +431,9 @@
     
    
    
-    <video style="margin-left: 15%;" data-aos="zoom-out" height="500" width="950" controls autoplay preload="" muted >
-        <source codecs="avc1.42E01E,mp4a.40.2" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/video01.mp4">
-    </video>
+  <div id="hz">
+    <img height="600%" width="60%" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-11/in-overview08.png" alt="">
+  </div>
 
 
    <div id="redmi360">
@@ -532,7 +597,10 @@
     <h1>High difinition art even in the dark</h1>
     <p>At night, easily switch modes to capture the glimmer in the dark. Night mode utilizes advanced algorithms to produce clear photos in dim light settings.
     </p>
-    <img width="60%" height="500px"  src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section10-02bg.jpg" alt="">
+    <div id="darki">
+        <img width="60%" height="500px"  src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section10-02bg.jpg" alt="">
+
+    </div>
 </div>
 
 <div id="selfie">
@@ -552,14 +620,14 @@
 </div>
 
 <div id="look">
-    <div style="width: 70%; height: 200px;" >
-        <img height="50px"  width="50px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section12-01.jpg" alt="">
+    <div class="item1" >
+        <img height="280px"  width="470px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section12-01.jpg" alt="">
     </div>
-    <div style="width: 25%; height: 80%;">
-        <img height="100px" width="50px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section12-03.jpg" alt="">
+    <div  class="item2" >
+        <img height="580px" width="320px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section12-03.jpg" alt="">
     </div>
-    <div style="width: 70%; height: 200px;">
-        <img height="50px" width="50px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section12-02.jpg" alt="">
+    <div  class="item3" >
+        <img height="280px" width="470px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section12-02.jpg" alt="">
     </div>
 </div>
 
@@ -575,8 +643,54 @@
   </p>
  </div>
 
+ <div id="hand">
+     <div>
+         <img  height="400px"  width="650px" src ="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section14-01.jpg"/>
+     </div>
+     <div>
+         <h1>Slim and linght,</h1>
+         <h1>easy to hold</h1>
+         <p id="handp" >The frame makes the phone look even slimmer than it is. With a weight of less than 180g, carrying the phone around is effortless.
+        </p>
+     </div>
+ </div>
 
 
+ <div id="side">
+     <div  id="unlock" style="width: 300px;">
+         <h1>Unlock easily with the Arc side fingerprint sensor
+        </h1>
+        <p>The redesigned Arc side fingerprint sensor is seamlessly integrated into the body for a comfortable hand feel. Let fast unlocking becomes a habit.
+        </p>
+     </div>
+     <div>
+         <img  height="400px"  width="650px" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section14-02.jpg" alt="">
+     </div>
+ </div>
+
+<div id="three">
+    <h2 >
+       <a style="font-size: 25px; color: rgb(19, 18, 18);" href=""> See specs ></a>
+    </h2>
+    
+</div>
+
+
+<div id="ul">
+    <p>Notes.</p>
+    <ul style="list-style-type:disc">
+        <li>Tested in Xiaomi Internal Labs. Results based on sequential write performance. Actual results may vary.
+        </li>
+        <li>5000mAh refers to the typical value of Redmi Note 10's battery capacity.
+        </li>
+        <li>The images on this page are illustrations and the design of the real product may differ.
+        </li>
+        <li> Unless otherwise indicated on the Redmi Note 10 product page, all data come from Xiaomi laboratories, product design specifications and suppliers. The testing data may vary slightly due to different software versions, tested phone versions and testing environments and may not reflect the actual product.
+        </li>
+        <li>Channel availability may vary between markets. Local standards and laws may vary, please ensure this product meets local requirements before purchase.
+        </li>
+    </ul>
+</div>
 
 </html>
 
