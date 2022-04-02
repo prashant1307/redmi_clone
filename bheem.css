@@ -1,0 +1,379 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    display: flex;
+    background-color: rgb(37, 36, 36);
+   margin-top: -8px;
+    padding: 20px;
+    
+}
+#first{
+    margin-left: 5%;
+}
+#second{
+    margin-left:  610px;
+}
+a{
+    margin-left: 10px;
+   text-decoration: none;
+   color: rgb(168, 164, 164);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11.5px;
+}
+span{
+    color: rgb(126, 125, 125);
+    margin: 10px;
+}
+#mi{
+    display: flex;
+    justify-content: space-between;
+}
+#mi{
+   height: 65px;
+   width: 98px;
+   margin-left: 12px;
+}
+#midiv{
+   display: flex;
+   justify-content: space-between;
+   padding: 12px;
+}
+#a2 >a{
+padding: 10px;
+
+   text-decoration: none;
+   color: rgb(104, 101, 101);
+   font-weight: bold;
+   font-size: 13px;
+   
+}
+#a2{
+   margin-top: 25px;
+   margin-right: 70px;
+}
+#note{
+   display: flex;
+   background-color: rgb(243, 241, 241);
+
+}
+#redmi{
+   margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:normal;
+   color: rgb(92, 89, 89);
+}
+#sec{
+ margin-left: 910px;
+ margin-top: 12px;
+}
+#specs{
+   color: rgb(46, 45, 45);
+}
+#back{
+   height: 800px;
+   width: 100%;
+   background-image: url(https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section01bg.jpg);
+  background-size: 100%;
+   background-repeat:  no-repeat;
+   margin-top: -5px;
+}
+#inner{
+    margin-left: 250px;
+    padding-top: 220px;
+   line-height: 10px;
+   
+}
+#inner>h1{
+    font-size: 55px;
+}
+#inner >p{
+    font-size: 12px;
+}
+#th{
+    font-size: 8px;
+   
+   margin-left: -0.5px;
+}
+#video{
+    margin-left: 14%;
+    margin-top: -15%;
+}
+#get{
+
+   text-align: center;
+   font-size: 22px;
+   color:rgb(17, 173, 245);  
+   line-height: 20px;
+}
+
+#redmi360{
+display: flex;
+justify-content: space-around;
+margin-top: -30px;
+background-color:  #9ddcfe;
+
+}
+#mobileimg{
+height: 500px;
+width: 400px;
+margin-right: 120px;
+border-radius: 17%;
+padding: 60px;
+}
+#comfortable{
+margin-left: 150px;
+margin-top: 5%;
+background-color: #9ddcfe;
+padding: 50px;
+height: 500px;
+width: 50%;
+}
+#mob{
+background-color: rgb(123, 208, 247);
+margin-left: 30px;
+}
+#charging{
+display: flex;
+padding-left: 15%;
+background-color: #cbd7ff;
+width: 85%;
+height:800px;
+}
+#charg{
+height: 300px;
+
+ box-sizing:border-box;
+
+}
+#wat{
+height: 500px;
+width: 500px;
+padding: 60px;
+
+
+}
+#core{
+width:80%;
+
+margin: auto;
+margin-top: -20%;
+height:400px;
+background-image:url(https://www.androidguys.com/wp-content/uploads/2020/07/snapdragon.png);
+background-repeat:round;
+color: rgb(234, 243, 234);
+padding-top: 30px;
+padding-left: 50px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+#core>p{
+width: 500px;
+}
+#be{
+line-height: 15px;
+color: rgb(83, 195, 240);
+}
+#entertain{
+display: flex;
+padding: 200px;
+margin-top: -130px;
+
+}
+#follow{
+display: flex;
+padding: 200px;
+margin-top: -480px; 
+
+}
+#beat{
+margin-top: 100px;
+margin-left: 50px;
+}
+#capture{
+width: 80%;
+margin: auto;
+text-align: center;
+margin-top:-200px;
+color: rgb(31, 178, 236);
+font-size: 22px;
+line-height: 35px;
+font-weight: bold;
+background-image: url(https://www.powerplanetonline.com/cdnassets/xiaomi_redmi_note_10_5g_4gb_64gb_verde_005_ad_l.jpg);
+background-position: -100px 150px;
+background-repeat: no-repeat;
+
+}
+#grid{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+background-image: url(/D/dev);
+
+}
+#camera{
+width: 40%;
+color: rgb(16, 16, 17);
+margin-left: 50%;
+margin-top: 120px;
+}
+.flex{
+display: flex;
+width: 10px;
+}
+#camera>p{
+font-size: 13px;
+}
+.flex>p{
+font-size: 13px;
+}
+#boys{
+
+height: 700px;
+margin-top: -5px;
+width: auto;
+color: white;
+text-align: center;
+border: 1px solid rgb(246, 244, 248);
+background-image: url(https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section08.jpg);
+background-repeat: no-repeat;
+
+background-size: 100% 100%;
+
+}
+#boys>h1{
+
+}
+#mode{
+margin:auto;
+text-align: center;
+color: teal;
+border: 2px solid teal;
+border-radius: 30px;
+width:250px;
+font-size: 20px;
+font-weight: bold;
+margin-top: 60px;
+padding: 15px;
+
+}
+#photo{
+margin: auto;
+margin-top: 100px;
+display: flex;
+width: 65%;
+justify-content: space-between;
+}
+#dark{
+color: white;
+
+text-align: center;
+padding-top: 30px;
+background-color: black;
+}
+
+#selfie{
+text-align: center;
+}
+#smarten{
+
+width: 50%;
+text-align: center;
+margin: auto;
+}
+#look{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+grid-template-areas: "a a b"
+                 "c c b";
+gap: 20px;
+width: 62.5%;
+margin: auto;
+margin-top: 70px;
+
+}
+.item1>img:hover{
+height: 300px;
+width: 490px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.item2>img:hover{
+height: 600px;
+width: 340px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.item3>img:hover{
+height: 300px;
+width: 490px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.item1{
+grid-area: a;
+}
+.item2{
+grid-area: b;
+
+}
+.item3{
+grid-area: c;
+
+}
+
+#hand{
+display: flex;
+margin: auto;
+align-items: center;
+margin-top: 300px;
+width: 80%;
+justify-content: space-between;
+
+}
+#handp{
+width: 350px;
+
+}
+#side{
+display: flex;
+width: 80%;
+margin: auto;
+justify-content: space-between;
+margin-top: -50px;
+}
+#unlock{
+margin-top: 10%;
+}
+#three{
+background-image: url(https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/section01bg.jpg);
+height: 250px;
+background-size: 90%;
+background-position:-200px;
+margin-top: 100px;
+}
+#three>h2{
+padding-left: 80%;
+padding-top: 6%;
+}
+
+#ul{
+width: 80%;
+margin: auto;
+padding: 20px;
+margin-top: 100px;
+}
+#hz{
+display: flex;
+margin-left: 25%;
+margin-bottom: 50px;
+}
+#thehz:hover{
+width: 100%;
+height: 100%;
+margin-left: -150px;
+}
+.hove:hover{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
