@@ -25,12 +25,12 @@ body{
 }
 /* navbar CSS complete */
 /* top banner */
-#top_banner{
+/* #top_banner{
     height: 50%;
     width: 100%;
     /* border: 10px solid red; */
-    padding-bottom: 5%;
-}
+    /* padding-bottom: 5%;
+} */ 
 /* top banner complete */
 /* home pannel between navbar and top banner */
 #home_Pannel{
