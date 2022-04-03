@@ -1,0 +1,360 @@
+#navigation_bar{
+    /* height: 30px;
+    width: 100%; */
+    /* border: 10px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+#in{
+    margin-right: 20px;
+}
+#up{
+    margin-right: 250px;
+}
+/* navbar CSS complete */
+/* top banner */
+#top_banner{
+    height: 50%;
+    width: 100%;
+    /* border: 10px solid red; */
+    padding-bottom: 5%;
+}
+/* top banner complete */
+/* home pannel between navbar and top banner */
+#home_Pannel{
+    display: flex;
+    background-color: #eef2fa;
+    height: 80px;
+    width: 100%;
+    /* justify-content: center; */
+}
+#home{
+    height: 100px;
+    width: 100px;
+    padding: 1;
+    margin-left: 200px;
+}
+#Mobile{
+    height: 100%;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 200px;
+    justify-content: space-around;
+}
+#Redmi_Phones{
+    margin-top: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#audio{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#xiomi_Phones{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+
+         #navbar{
+            height: 60px;
+            background-color: rgb(245,245,245);
+            display: flex;
+            align-items: center;
+            justify-content: space-between 
+            
+        }
+        div:nth-child(2){
+            width: 20%;
+            display: flex;
+            justify-content: space-evenly
+        }
+        #block_1{
+            width: 100%;
+            position: relative;
+        }
+        #block_1>img{
+            width: 100%;
+            position: relative;
+        }
+        #block_1>h2{
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            font-size: 40px;
+        }
+        #block_1>p{
+            position: absolute;
+            top: 150px;
+            left: 400px;
+            font-size: 30px;
+        }
+        h2{
+            font-size: 40px;
+            text-align: center;
+            width: 50%;
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+
+
+      
+         #block_3{
+             width: 70%;
+             margin: auto;
+             margin-top: 50px;
+             margin-bottom: 50px;
+         }
+         #block_3>video{
+             width: 100%;
+             border-radius: 20px;
+         }
+         #block_4{
+             position: relative;
+         }
+         #block_4>img{
+            position: relative;
+         }
+         #block_4>h2{
+             position: absolute;
+             color: white;
+             left: 10%;
+             top: 7%;
+         }
+         #block_4>p{
+             position: absolute;
+             color: white;
+             width: 30%;
+             top: 22%;
+             left: 17%;
+         }
+         #block_5{
+             position: relative;
+         }
+         #block_5>img{
+             position: relative;
+         }
+         #block_5>h2{
+             position: absolute;
+             width: 39%;
+             text-align: left;
+             top: 2%;
+             left: 17%;
+         }
+         #block_5>p{
+             position: absolute;
+             width: 30%;
+             left: 17%;
+             top: 19%;
+         }
+         img{
+             width: 100%
+         }
+         #block_6{
+             width: 70%;
+             display: flex;
+             justify-content: space-evenly;
+             margin: auto;
+         }
+         p{
+             text-align: center;
+         }
+      
+
+        
+         #block_6>div{
+             width: 200px;
+             text-align: center;
+         }
+         #block_8{
+             position: relative;
+             margin-top: 50px;
+         }
+         #block_8>img{
+             position: relative;
+         }
+         #block_8>h1{
+             position:absolute;
+             color: aqua;
+             font-size: 50px;
+             top: 45%;
+             left: 62%;
+         }
+         #block_8>h2{
+             position: absolute;
+             top: 49%;
+             left: 48%;
+         }
+         #block_8>h3{
+             position: absolute;
+             font-size: 30px;
+             width: 40%;
+             top: 54%;
+             left: 62.5%;
+         }
+         #block_8>p{
+             position: absolute;
+             text-align: left;
+             width: 28%;
+             top: 62%;
+             left: 62.7%;
+         }
+         #block_9{
+             position: relative;
+         }
+         #block_9{
+             position: relative;
+         }
+         #block_9>h1{
+             position: absolute;
+             width: 31%;
+             top: 11%;
+             left: 20%;
+             
+         }
+         #block_9>h2{
+             position: absolute;
+             text-align: left;
+             width: 38%;
+             top: 50%;
+             left: 57%;
+         }
+         #block_9>p{
+             position: absolute;
+             text-align: left;
+             width: 27%;
+             top: 62%;
+             left: 57%;
+         }
+         #block_10{
+             position: relative;
+         }
+         #block_10>img{
+             position: relative;
+             
+         }
+         #block_10>h1{
+             position: absolute;
+             color: white;
+             display: block;
+             left: 36%;
+             top: 10%;
+         }
+         #block_10>p{
+             position: absolute;
+             color: white;
+             width: 49%;
+             top: 20%;
+             left: 28%;
+         }
+         #block_11{
+             position: relative;
+         }
+         #block_11>img{
+             position: relative;
+         }
+         #block_11>h1{
+             position: absolute;
+             color: white;
+             top: 20%;
+             left: 20%;
+         }
+         #block_11>h2{
+             position: absolute;
+             color: white;
+             top: 20%;
+             left: 45%;
+         }
+        #block_13{
+            width: 70%;
+            margin: auto;
+        }
+        #block_13>h2{
+            font-size: xx-large;
+            margin-left: -120px
+        }
+        /* bottom side */
+        
+.connect{
+  padding-top: 100px;
+    height: 10px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+.n123{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mail{
+    height: 30px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin-left: 3%;
+    width: 25%;
+}
+#mail{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 80%;
+}
+.follow{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: space-around;
+    /* margin-left: 100px; */
+    width: 15%;
+}
+.bottom{
+    color: white;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    /* margin: auto; */
+}
+.shop{
+    /* display: inline; */
+    margin-left: 10%;
+    margin-top: 50px;
+    /* margin: auto; */
+}
+.support{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.connectUs{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.aboutUs{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
