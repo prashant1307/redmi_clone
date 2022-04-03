@@ -11,6 +11,7 @@
     height: 620px;
     width: 30%;
     overflow: hidden;
+    position: fixed;
    
 }
 #head{
@@ -28,7 +29,8 @@ align-items: center;
     
 }
 #midle{
-    margin-left: 2%;
+    position:absolute;
+    margin-left: 32%;
 
     width: 65%;
     justify-content: space-around;
@@ -102,11 +104,28 @@ button{
     cursor: pointer;
 }
 #number{
-  padding-left: 50px;
+  margin-left: 50px;
   justify-content: end;
+  
+  
 }
 #more{
     margin-top: 20px;
     color: rgb(119, 117, 117);
     font-size: 18px;
+}
+#forgot>p:nth-child(2){
+    text-align: right;
+}
+#signin{
+    font-size: 28px;
+     text-decoration: none;
+      color: black;
+      font-weight: bold;
+}
+#signup{
+    font-size: 28px;
+     text-decoration: none;
+      color: black;
+      font-weight: bold;
 }
