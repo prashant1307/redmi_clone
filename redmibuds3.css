@@ -1,0 +1,327 @@
+.navbarbuds {
+    background-color: #f5f5f5;
+    margin-top: -10px;
+  }
+  .navbarbuds ul{
+    overflow: auto;
+  }
+  .navbarbuds li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 13px 20px;
+    font-size: smaller;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .specs {
+    float: right;
+    margin-right: 50px;
+    font-size: 22px;
+  }
+  .specs p {
+      font-size: 20px;
+  }
+  .beat {
+      position: relative;
+      height: auto;
+      width: 100%;
+      margin-top: -15px;
+  }
+  .beatbanner {
+      position: absolute;
+      height: auto;
+      width: 30%;
+      top: 20%;
+      left: 20%;
+      color: white;
+      /* border: 1px solid red; */
+      font-family: CamphorPro-Light,sans-serif ;
+  }
+  .beatbanner h1 {
+      font-size: 55px;
+      font-weight: bold;
+  }
+  .beatbanner h2 {
+    font-size: 25px;
+    margin-top: -20px;
+  }
+  .beatbanner p {
+    text-align: justify;
+  }
+  .budsspecs {
+      display: flex;
+      height: auto;
+      width: 80%;
+      margin: auto;
+      margin-top: 75px;
+      font-family:ProximaNova,Arial,sans-serif ;
+      /* border: 1px solid red; */
+  }
+  .budsspecs div {
+      height: auto;
+      width: 25%;
+      text-align: center;
+      /* border: 1px solid red; */
+  }
+  .design {
+      position: relative;
+      height: auto;
+      width: 100%;
+      margin-top: 75px;
+  }
+  .design .designbanner {
+      position: absolute;
+      top: 10%;
+      left: 25%;
+      height: auto;
+      width: 30%;
+      text-align: left;
+      font-family: CamphorPro-Bold,sans-serif ;
+      /* border: 1px solid red; */
+  }
+  .designbanner h1 {
+      color: #e4502e;
+  }
+  .designbanner p {
+    font-size: 16px;
+    color: #6f758c;
+}
+.compact {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.compact .compactbanner {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    height: auto;
+    width: 40%;
+    text-align: left;
+    font-family: Lato,ProximaNova,sans-serif;
+    /* border: 1px solid red; */
+}
+.compactbanner p {
+    font-size: 16px;
+    color: #6f758c;
+}
+.BLUETOOTH {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.BLUETOOTH .BLUETOOTHbanner {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    height: auto;
+    width: 40%;
+    text-align: left;
+    font-family: Lato,ProximaNova,sans-serif;
+    /* border: 1px solid red; */
+}
+.BLUETOOTHbanner p {
+    font-size: 16px;
+    color: #6f758c;
+}
+.hardware {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.hardware .hardwarebanner {
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    height: auto;
+    width: 75%;
+    text-align: center;
+    font-family: Lato,ProximaNova,sans-serif;
+    /* border: 1px solid red; */
+}
+.hardwarebanner p {
+    font-size: 16px;
+    color: #6f758c;
+}
+.girl {
+    height: auto;
+    width: 100%;
+}
+.noise {
+    height: auto;
+    width: 100%;
+    background-color: #ecffec;
+}
+.microphone {
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 65%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Lato,ProximaNova,sans-serif;
+}
+.microphone p {
+    font-size: 16px;
+    color: #6f758c;
+}
+.headgirl {
+    height: auto;
+    width: 40%;
+    margin: auto;
+}
+.noise .life {
+    display: flex;
+}
+.life {
+    height: auto;
+    width: 50%;
+    margin-top: 50px;
+    font-family: Lato,ProximaNova,sans-serif;
+    margin-left: 27%;
+}
+.life p {
+    font-size: 14px;
+}
+.life .p1 {
+    font-size: 11.50px;
+    color: #a2aea5;
+}
+.Pop-up {
+    background-color: #def5f6;
+    height: auto;
+    width: 87%;
+    margin-top: 50px;
+    padding: 100px;
+    font-family: Lato,ProximaNova,sans-serif;
+}
+.Pop-up .MIUI {
+    display: flex;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+/* .Pop-up .Touch {
+    display: flex;
+    width: 70%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Lato,ProximaNova,sans-serif;
+} */
+.Pop-up .resistant {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-top: 75px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.Pop-up p {
+    font-size: 16px;
+    color: #a2aea5;
+}
+.features {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.features div {
+    position: relative;
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+.features .divbanner1 {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    color: white;
+}
+.features .divbanner2 {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    color: white;
+}
+.notes {
+    height: auto;
+    width: 80%;
+    font-size: 14px;
+    font-family: Lato,ProximaNova,sans-serif;
+    color: #a2aea5;
+    margin: auto;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.connect{
+    height: 10px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+.n123{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mail{
+    height: 30px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin-left: 3%;
+    width: 25%;
+}
+#mail{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 80%;
+}
+.follow{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: space-around;
+    /* margin-left: 100px; */
+    width: 15%;
+}
+.bottom{
+    color: white;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    /* margin: auto; */
+}
+.shop{
+    /* display: inline; */
+    margin-left: 10%;
+    margin-top: 50px;
+    /* margin: auto; */
+}
+.support{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.connectUs{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.aboutUs{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.bottom a{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
