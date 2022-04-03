@@ -1,3 +1,78 @@
+ /* navbar CSS */
+ #navigation_bar{
+    /* height: 30px;
+    width: 100%; */
+    /* border: 10px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  }
+  #in{
+    margin-right: 20px;
+  }
+  #up{
+    margin-right: 250px;
+  }
+  /* navbar CSS complete */
+  /* top banner */
+  #top_banner{
+    height: 50%;
+    width: 100%;
+    /* border: 10px solid red; */
+    padding-bottom: 5%;
+  }
+  /* top banner complete */
+  /* home pannel between navbar and top banner */
+  #home_Pannel{
+    display: flex;
+    background-color: #eef2fa;
+    height: 80px;
+    width: 100%;
+    /* justify-content: center; */
+  }
+  #home{
+    height: 100px;
+    width: 100px;
+    padding: 1;
+    margin-left: 200px;
+  }
+  #Mobile{
+    height: 100%;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 200px;
+    justify-content: space-around;
+  }
+  #Redmi_Phones{
+    margin-top: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+  }
+  #audio{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+  }
+  #xiomi_Phones{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+  }
+
+
+
+
 .navbarbuds {
     background-color: #f5f5f5;
     margin-top: -10px;
