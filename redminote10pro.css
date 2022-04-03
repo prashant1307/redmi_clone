@@ -743,35 +743,34 @@
             background-color: black;
             /* margin: auto; */
         }
-        .bottom .shop{
+        .shop{
             /* display: inline; */
             margin-left: 10%;
             margin-top: 50px;
             /* margin: auto; */
         }
-        .bottom .support{
+        .support{
             /* margin: auto; */
             margin-left: 100px;
             margin-top: 50px;
         }
-        .bottom .connectUs{
+        .connectUs{
             /* margin: auto; */
             margin-left: 100px;
             margin-top: 50px;
         }
-        .bottom .aboutUs{
+        .aboutUs{
             /* margin: auto; */
             margin-left: 100px;
             margin-top: 50px;
         }
        
-        .bottom a{
+        a{
             color: white;
         }
-        .bottom ul{
+        ul{
             list-style-type: none;
         }
-      
       
       
       

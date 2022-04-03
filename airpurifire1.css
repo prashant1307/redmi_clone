@@ -378,79 +378,69 @@ margin: auto;
 
 /* css add */
 .connect{
-height: 10px;
-width: 100%;
-/* border: 1px solid red; */
-margin: auto;
-display: flex;
-padding-top: 100px;
-padding-bottom: 100px;
-background-color: whitesmoke;
+   height: 10px;
+   width: 80%;
+   /* border: 1px solid red; */
+   margin: auto;
+   display: flex;
+   padding-bottom: 50px;
 }
 .n123{
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 40px;
-line-height:10px;
-}
-.n123 > p{
-font-size: 12px;
-color: gray;
+ font-family: Arial, Helvetica, sans-serif;
 }
 .mail{
-height: 30px;
-width: 25%;
-/* border: 1px solid black; */
-margin-top: 20px;
-margin-left: 3%;
-width: 25%;
+   height: 30px;
+   width: 25%;
+   /* border: 1px solid black; */
+   margin-left: 3%;
+   width: 25%;
 }
 #mail{
-/* border: 1px solid red; */
-height: 100%;
-width: 80%;
+   /* border: 1px solid red; */
+   height: 100%;
+   width: 80%;
 }
 .follow{
-display: flex;
-/* border: 1px solid red; */
-margin: auto;
-margin-top: 20px;
-justify-content: space-around;
-/* margin-left: 100px; */
-width: 15%;
+   display: flex;
+   /* border: 1px solid red; */
+   margin: auto;
+   justify-content: space-around;
+   /* margin-left: 100px; */
+   width: 15%;
 }
 .bottom{
-color: white;
-display: flex;
-height: 300px;
-width: 100%;
-background-color: black;
-/* margin: auto; */
+   color: white;
+   display: flex;
+   height: 300px;
+   width: 100%;
+   background-color: black;
+   /* margin: auto; */
 }
 .shop{
-/* display: inline; */
-margin-left: 10%;
-margin-top: 50px;
-/* margin: auto; */
+   /* display: inline; */
+   margin-left: 10%;
+   margin-top: 50px;
+   /* margin: auto; */
 }
 .support{
-/* margin: auto; */
-margin-left: 100px;
-margin-top: 50px;
+   /* margin: auto; */
+   margin-left: 100px;
+   margin-top: 50px;
 }
 .connectUs{
-/* margin: auto; */
-margin-left: 100px;
-margin-top: 50px;
+   /* margin: auto; */
+   margin-left: 100px;
+   margin-top: 50px;
 }
 .aboutUs{
-/* margin: auto; */
-margin-left: 100px;
-margin-top: 50px;
+   /* margin: auto; */
+   margin-left: 100px;
+   margin-top: 50px;
 }
 
 a{
-color: white;
+   color: white;
 }
 ul{
-list-style-type: none;
+   list-style-type: none;
 }

@@ -311,70 +311,69 @@
             margin-left: 30px;
         }
         .connect{
-  padding-top: 100px;
-    height: 10px;
-    width: 80%;
-    /* border: 1px solid red; */
-    margin: auto;
-    display: flex;
-    padding-bottom: 50px;
-}
-.n123{
-  font-family: Arial, Helvetica, sans-serif;
-}
-.mail{
-    height: 30px;
-    width: 25%;
-    /* border: 1px solid black; */
-    margin-left: 3%;
-    width: 25%;
-}
-#mail{
-    /* border: 1px solid red; */
-    height: 100%;
-    width: 80%;
-}
-.follow{
-    display: flex;
-    /* border: 1px solid red; */
-    margin: auto;
-    justify-content: space-around;
-    /* margin-left: 100px; */
-    width: 15%;
-}
-.bottom{
-    color: white;
-    display: flex;
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    /* margin: auto; */
-}
-.shop{
-    /* display: inline; */
-    margin-left: 10%;
-    margin-top: 50px;
-    /* margin: auto; */
-}
-.support{
-    /* margin: auto; */
-    margin-left: 100px;
-    margin-top: 50px;
-}
-.connectUs{
-    /* margin: auto; */
-    margin-left: 100px;
-    margin-top: 50px;
-}
-.aboutUs{
-    /* margin: auto; */
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-a{
-    color: white;
-}
-ul{
-    list-style-type: none;
-}
+            height: 10px;
+            width: 80%;
+            /* border: 1px solid red; */
+            margin: auto;
+            display: flex;
+            padding-bottom: 50px;
+        }
+        .n123{
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .mail{
+            height: 30px;
+            width: 25%;
+            /* border: 1px solid black; */
+            margin-left: 3%;
+            width: 25%;
+        }
+        #mail{
+            /* border: 1px solid red; */
+            height: 100%;
+            width: 80%;
+        }
+        .follow{
+            display: flex;
+            /* border: 1px solid red; */
+            margin: auto;
+            justify-content: space-around;
+            /* margin-left: 100px; */
+            width: 15%;
+        }
+        .bottom{
+            color: white;
+            display: flex;
+            height: 300px;
+            width: 100%;
+            background-color: black;
+            /* margin: auto; */
+        }
+        .shop{
+            /* display: inline; */
+            margin-left: 10%;
+            margin-top: 50px;
+            /* margin: auto; */
+        }
+        .support{
+            /* margin: auto; */
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .connectUs{
+            /* margin: auto; */
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .aboutUs{
+            /* margin: auto; */
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+       
+        a{
+            color: white;
+        }
+        ul{
+            list-style-type: none;
+        }
