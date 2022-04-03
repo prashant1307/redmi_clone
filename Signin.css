@@ -1,0 +1,13 @@
+#main{
+    border: 5px solid red;
+    /* image-resolution: 375*334 */
+    height: 1000px;
+    
+}
+#left{
+    height: 500px;
+    width: 20%;
+}
+/* #background{
+    height: 650px
+} */
