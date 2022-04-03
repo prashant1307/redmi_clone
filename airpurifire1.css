@@ -1,0 +1,393 @@
+*{
+    font-family: sans-serif;
+}
+
+.air{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    text-align: center;
+    background-color:whitesmoke;
+}
+.sm{
+    font-size: 25px;
+}
+.sn > p{
+    margin-top: 30px;
+    border-left: 2px solid gray;
+    cursor: pointer;
+}
+.sd{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    cursor: pointer;
+}
+.banner-photo{
+    position:relative;
+}
+.banner-photo img{
+   width:100%;
+   height:550px;
+   padding-bottom: 40px;
+}
+.photo{
+   position:absolute;
+   text-align: center;
+   top:7%;
+   left:30%;
+   font-size: 24px;
+   line-height: 10px;
+   text-align: center;
+}
+.photo >p {
+   font-size: 15px;
+   text-align: left;
+   margin-left: 20px;
+}
+.banner-photo1 img{
+   width:70%;
+   margin-left: 15%;
+   height:450px;
+   padding-bottom: 20px;
+}
+h2{
+   text-align: center;
+   font-size: 30px;
+   line-height: 20px;
+}
+.banner-photo2{
+    position:relative;
+}
+.banner-photo2 img{
+   width:70%;
+   height:500px;
+   margin-left: 15%;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+.photo2a{
+   position:absolute;
+   text-align: center;
+   top:25%;
+   left:38%;
+   text-align: center;
+   line-height: 0;
+   font-size: 15px;
+}
+.photo2b{
+   position:absolute;
+   text-align: center;
+   top:30%;
+   left:53.5%;
+   text-align: center;
+   line-height: 0;
+   font-size: 12px;
+}
+.photo2c{
+   position:absolute;
+   text-align: center;
+   top:35%;
+   right:21%;
+   text-align: center;
+   line-height: 0;
+   font-size: 15px;
+}
+.photo2d{
+   position:absolute;
+   text-align: center;
+   top:56%;
+   left:26%;
+   text-align: center;
+   line-height: 0;
+   font-size: 12px;
+}
+.photo2e{
+   position:absolute;
+   text-align: center;
+   bottom:40%;
+   left:44%;
+   text-align: center;
+   line-height: 0;
+   font-size: 12px;
+}
+.photo2f{
+   position:absolute;
+   text-align: center;
+   bottom:44%;
+   left:58%;
+   text-align: center;
+   line-height: 0;
+   font-size: 12px;
+}
+.photo2g{
+   position:absolute;
+   text-align: center;
+   bottom:34%;
+   right:24.5%;
+   text-align: center;
+   line-height: 0;
+   font-size: 12px;
+}
+.h1{
+   text-align: center;
+   line-height: 20px;
+}
+.p{
+   text-align: center;
+   line-height: 10px;
+   color:gray;
+}
+.all{
+   width: 60%;
+   text-align: left;
+   margin-left: 23%;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 50px;
+}
+.all > div >p{
+   font-size: 15px;
+   color: gray;
+}
+.al{
+   margin-left: 50px;
+}
+.banner-photo3 img{
+   width:70%;
+   height:500px;
+   margin-left: 15%;
+   margin-top: -25px;
+}
+.main{
+   margin: auto;
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: rgb(30, 30, 55);
+}
+.mai{
+   margin: auto;
+   width: 90%;
+   background-color: white;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.ma{
+   width: 60%;
+   height: 200px;
+   margin: auto;
+   margin-top: 60px;
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+}
+.ma >div > img{
+  height: 70px;
+  width: 70px;
+}
+.main1{
+  width: 18%;
+  margin: auto;
+  margin-left:22%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:15%;
+}
+.main1>div>img{
+   height: 300px;
+   width: 300px;
+}
+.ma1{
+   width: 60%;
+   height: 200px;
+   margin: auto;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+}
+.ma1 >div > img{
+  height: 70px;
+  width: 70px;
+}
+.mai4 > img{
+   width:55%;
+   margin-top: -170px;
+   margin-bottom: -20px;
+   margin-left: 23%;
+}
+.banner-photo4 img{
+   width:100%;
+   margin-bottom: 60px;
+}
+.banner-photo5{
+position: relative;
+}
+.banner-photo5 img{
+height: 350px; 
+width: 600px;
+margin-left: 25%;
+}
+.photo5a{
+   position:absolute;
+   text-align: center;
+   left:30%;
+   top: 55px;
+   text-align:left;
+   color: white;
+}
+.photo5a > h1{
+   color: rgb(57, 57, 121);
+}
+.banner-photo6{
+position: relative;
+}
+.banner-photo6 img{
+height: 350px; 
+width: 600px;
+margin-left: 25%;
+}
+.photo6a{
+   position:absolute;
+   text-align: left;
+   left:30%;
+   top: 60px;
+   text-align:left;
+}
+.photo6a > h2{
+  text-align: left;
+}
+.mainbox{
+   width:90%;
+   margin: auto;
+   background-color: whitesmoke;
+   border-radius: 20px;
+}
+.mainbox1a{
+   margin: auto;
+   width: 40%;
+   text-align: center;
+   font-size: 12px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.mainbox1a > div > img{
+   height: 70px;
+   width: 70px;
+   margin-top: 50px;
+}
+.mainbox2 > img{
+   margin: auto;
+   width: 50%;
+   margin-top: 40px;
+   margin-left: 25%;
+   height: 350px;
+}
+.mainbox3{
+position: relative;
+}
+.mainbox3 > img{
+margin: auto;
+   width: 50%;
+   margin-top: 10px;
+   margin-left: 25%;
+   height: 350px;
+   padding-bottom: 40px;
+}
+.mainbox3a{
+   position:absolute;
+   left:27%;
+   top: 100px;
+   color: white;
+}
+.mainbox3a >h2,p{
+  text-align: left;
+}
+
+/* css remaining */
+
+
+/* css add */
+.connect{
+height: 10px;
+width: 100%;
+/* border: 1px solid red; */
+margin: auto;
+display: flex;
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: whitesmoke;
+}
+.n123{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 40px;
+line-height:10px;
+}
+.n123 > p{
+font-size: 12px;
+color: gray;
+}
+.mail{
+height: 30px;
+width: 25%;
+/* border: 1px solid black; */
+margin-top: 20px;
+margin-left: 3%;
+width: 25%;
+}
+#mail{
+/* border: 1px solid red; */
+height: 100%;
+width: 80%;
+}
+.follow{
+display: flex;
+/* border: 1px solid red; */
+margin: auto;
+margin-top: 20px;
+justify-content: space-around;
+/* margin-left: 100px; */
+width: 15%;
+}
+.bottom{
+color: white;
+display: flex;
+height: 300px;
+width: 100%;
+background-color: black;
+/* margin: auto; */
+}
+.shop{
+/* display: inline; */
+margin-left: 10%;
+margin-top: 50px;
+/* margin: auto; */
+}
+.support{
+/* margin: auto; */
+margin-left: 100px;
+margin-top: 50px;
+}
+.connectUs{
+/* margin: auto; */
+margin-left: 100px;
+margin-top: 50px;
+}
+.aboutUs{
+/* margin: auto; */
+margin-left: 100px;
+margin-top: 50px;
+}
+
+a{
+color: white;
+}
+ul{
+list-style-type: none;
+}
