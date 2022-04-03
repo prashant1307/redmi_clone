@@ -10,38 +10,45 @@
    <link rel="stylesheet" href="note10.css">
 </head>
 <body>
-   
-    <div id="container">
-        <div id="first">
-            <a href="">INTERNATIONAL</a>
-            <span>|</span>
-            <a href="">MI COMMUNITY</a>
-            <span>|</span>
-            <a href="">MIUI</a>
-            <span>|</span>
-            <a href="">XIAOMI STUDIOS</a>
-            
-        </div>
-        <div id="second">
-            <a href="">SIGN IN</a>
-            <span>|</span>
-            <a href="">SIGN UP</a>
-        </div>
-    </div>
+    <div id="navigation_bar">
+        <div id="in"><a href="Signin.html" style="color: white;">SIGN IN  </a></div>
+        <span style="color: rgb(134, 133, 133);margin-right: 20px;">|</span>
+        <div id="up"><a href="signup.html" style="color: white;">SIGN UP  </a></div>
 
-    <div id="midiv">
-            <div>
-            <img id="mi" src="data:image/png;base64,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" alt="img">          
-    </div>          
-        <div id="a2">
-            <a href="">Xiaomi Phones</a>
-            <a href="">Redmi Phones</a>
-            <a href="">Audio</a>
-            <a href="">Mi TV</a>
-            <a href="">Smart Devices</a>
-            <a href="">All Products</a>
-            <a href="">Product Authentication</a>
-            <a href="">Discover</a>
+    </div>
+    <div id="home_Pannel">
+        <div id="home">
+            <a href="index.html">
+            <img 
+            style="
+            height: 70px;
+            width: 70px;
+            margin-top: 5px;
+            border-radius: 25%;
+            "
+            src="https://imgs.search.brave.com/nWQsooe696rhsu6fzEdHiluWOzKH0VuCkLlU0ncgAuY/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/V01EMjVUMWVpUWpW/THBFWGdfN253SGFI/YSZwaWQ9QXBp" 
+            alt="Click to go to Home">
+            </a>
+        </div>
+        <div id="Mobile">
+        <select name="Redmi_Phones" id="Redmi_Phones">
+            <option value="Redmi_Phones">Redmi Phones</option>
+            <option value="Redmi_Note_10S">Redmi Note 10S</option>
+            <option value="Redmi_Note_10_Pro">Redmi Note 10 Pro</option>
+            <option value="Redmi_Note_10">Redmi Note 10</option>
+        </select>
+        <select name="Xiomi_Phones" id="xiomi_Phones">
+            <option value="Xiomi_Phones">Xiomi Phones</option>
+            <option value="Xiomi_11Lite5G_NE">Xiomi 11 Lite 5G NE</option>
+            <!-- <option value="Redmi_Note_10_Pro">Redmi Note 10 Pro</option>
+            <option value="Redmi_Note_10">Redmi Note 10</option> -->
+        </select>
+        <select name="Audio" id="audio">
+            <option value="Audio">Audio</option>
+            <option value="redmi_bud_3_pro">RedMi Bud 3 Pro</option>
+            <option value="Redmi_bud_3">Redmi Bud 3</option>
+            <option value="Xiomi_bud_3">Xiomi Bud 3</option>
+        </select>
         </div>
     </div>
     <div id="note">
