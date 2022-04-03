@@ -6,6 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+         #navigation_bar{
+    /* height: 30px;
+    width: 100%; */
+    /* border: 10px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+#in{
+    margin-right: 20px;
+}
+#up{
+    margin-right: 250px;
+}
+/* navbar CSS complete */
+/* top banner */
+#top_banner{
+    height: 50%;
+    width: 100%;
+    /* border: 10px solid red; */
+    padding-bottom: 5%;
+}
+/* top banner complete */
+/* home pannel between navbar and top banner */
+#home_Pannel{
+    display: flex;
+    background-color: #eef2fa;
+    height: 80px;
+    width: 100%;
+    /* justify-content: center; */
+}
+#home{
+    height: 100px;
+    width: 100px;
+    padding: 1;
+    margin-left: 200px;
+}
+#Mobile{
+    height: 100%;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 200px;
+    justify-content: space-around;
+}
+#Redmi_Phones{
+    margin-top: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#audio{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#xiomi_Phones{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+
          #navbar{
             height: 60px;
             background-color: rgb(245,245,245);
@@ -21,6 +92,7 @@
         }
         #block_1{
             width: 100%;
+            position: relative;
         }
         #block_1>img{
             width: 100%;
@@ -29,11 +101,13 @@
         #block_1>h2{
             position: absolute;
             top: 70px;
+            left: 200px;
             font-size: 40px;
         }
         #block_1>p{
             position: absolute;
             top: 150px;
+            left: 400px;
             font-size: 30px;
         }
         h2{
@@ -214,17 +288,129 @@
              top: 20%;
              left: 45%;
          }
-        #block_12{
+        #block_13{
             width: 70%;
             margin: auto;
         }
-        #block_12>h2{
+        #block_13>h2{
             font-size: xx-large;
             margin-left: -120px
         }
+        /* bottom side */
+        
+.connect{
+  padding-top: 100px;
+    height: 10px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+.n123{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mail{
+    height: 30px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin-left: 3%;
+    width: 25%;
+}
+#mail{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 80%;
+}
+.follow{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: space-around;
+    /* margin-left: 100px; */
+    width: 15%;
+}
+.bottom{
+    color: white;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    /* margin: auto; */
+}
+.shop{
+    /* display: inline; */
+    margin-left: 10%;
+    margin-top: 50px;
+    /* margin: auto; */
+}
+.support{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.connectUs{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.aboutUs{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
     </style>
 </head>
 <body>
+    <div id="navigation_bar">
+        <div id="in"><a style="color: white;">SIGN IN  </a></div>
+        <span style="color: rgb(134, 133, 133);margin-right: 20px;">|</span>
+        <div id="up"><a style="color: white;">SIGN UP  </a></div>
+
+    </div>
+    <div id="home_Pannel">
+        <div id="home">
+            <a href="">
+            <img 
+            style="
+            height: 70px;
+            width: 70px;
+            margin-top: 5px;
+            border-radius: 25%;
+            "
+            src="https://imgs.search.brave.com/nWQsooe696rhsu6fzEdHiluWOzKH0VuCkLlU0ncgAuY/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/V01EMjVUMWVpUWpW/THBFWGdfN253SGFI/YSZwaWQ9QXBp" 
+            alt="Click to go to Home">
+            </a>
+        </div>
+        <div id="Mobile">
+        <select name="Redmi_Phones" id="Redmi_Phones">
+            <option value="Redmi_Phones">Redmi Phones</option>
+            <option value="Redmi_Note_10S">Redmi Note 10S</option>
+            <option value="Redmi_Note_10_Pro">Redmi Note 10 Pro</option>
+            <option value="Redmi_Note_10">Redmi Note 10</option>
+        </select>
+        <select name="Xiomi_Phones" id="xiomi_Phones">
+            <option value="Xiomi_Phones">Xiomi Phones</option>
+            <option value="Xiomi_11Lite5G_NE">Xiomi 11 Lite 5G NE</option>
+            <!-- <option value="Redmi_Note_10_Pro">Redmi Note 10 Pro</option>
+            <option value="Redmi_Note_10">Redmi Note 10</option> -->
+        </select>
+        <select name="Audio" id="audio">
+            <option value="Audio">Audio</option>
+            <option value="redmi_bud_3_pro">RedMi Bud 3 Pro</option>
+            <option value="Redmi_bud_3">Redmi Bud 3</option>
+            <option value="Xiomi_bud_3">Xiomi Bud 3</option>
+        </select>
+        </div>
+    </div>
+
     
     <div id="navbar">
         <div>
@@ -305,6 +491,9 @@
         <h2>Cared for 24/7</h2>
     </div>
     <div id="block_12">
+        <img src="//i02.appmifile.com/625_operator_sg/03/03/2022/7a3a5511aa54464565861974af07ec0b.png">
+    </div>
+    <div id="block_13">
         <h2>Disclaimers</h2>
         <ul>
             <li>All images including but not limited to render pictures, videos, user interface on this page are for demonstration purposes only and may differ from actual product.</li>
@@ -319,5 +508,76 @@
         </ul>
     </div>
    
+<div class="connect">
+    <div class="n123">
+        <h4>LET'S STAY IN TOUCH</h4>
+        <p>Get updates on sales special and more</p>                                         
+    </div>
+    <div class="mail">
+        <input id="mail" type="text" placeholder="Enter Email Address"/>
+    </div>
+    <div class="n123">
+        <h4>FOLLOW MI</h4>
+        <p>We want to hear from you!</p>
+    </div>
+    <div class="follow">
+        <a href="https://www.facebook.com/XiaomiGlobal/"><img style="height: 30px; width: 30px;" src="https://imgs.search.brave.com/dzzb1iTOQ-DwmvF3sW3llhv0MZroH4vEwS2TlkLFoX8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC44/S1RGS0pSeTd1dHlw/bng0Z1R1UE53SGFI/YSZwaWQ9QXBp" alt=""></a>
+        <a href="https://www.youtube.com/user/XiaomiChina"><img style="height: 30px; width: 30px;" src="https://imgs.search.brave.com/hlsZxnrAoKKd_al49bjIfVkXYvUAfYT2_wJnuo5c_N4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/aXBSOTh4blgyNm1C/X3BZV01zY05RSGFI/YSZwaWQ9QXBp" alt=""></a>
+        <a href="https://www.instagram.com/xiaomi.global/"><img style="height: 30px; width: 30px;" src="https://imgs.search.brave.com/rQX7vwiJZ2ciH_F0NfJlaCQ0C3Xr8X2xgQ0HVt2dZ7A/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/Zk02WjhVNm1BRDlp/T0pRaXRwNHdBSGFI/YSZwaWQ9QXBp" alt=""></a>
+    </div>
+</div>
+<div class="bottom">
+    <div class="shop">
+        <ul>
+            <h4>SHOP AND EARN</h4>
+            <br/>
+            <li><a href="">Xiomi 11 Lite 5G NE</a></li>
+            <br/>
+            <li><a href="">Redmi Note 10S</a></li>
+            <br/>
+            <li><a href="">Redmi Note 10 Pro</a></li>
+            <br/>
+            <li><a href="">Redmi Note 10</a></li>
+            <br/>
+        </ul>
+    </div>
+    <div class="support">
+        <ul>
+            <h4>SUPPORT</h4>
+            <br/>
+            <li><a href="">Connect Us</a></li>
+            <br/>
+            <li><a href="">User Guide</a></li>
+            <br/>
+            <li><a href="">Warrenty</a></li>
+            <br/>
+        </ul>
+    </div>
+    <div class="connectUs">
+        <ul>
+            <h4>CONNECT US</h4>
+            <br/>
+            <li><a href="">Facebook</a></li>
+            <br/>
+            <li><a href="">Youtube</a></li>
+            <br/>
+            <li><a href="">Instagram</a></li>
+            <br/>
+        </ul>
+    </div>
+    <div class="aboutUs">
+        <ul>
+            <h4>ABOUT US</h4>
+            <br/>
+            <li><a href="">Xiomi</a></li>
+            <br/>
+            <li><a href="">Leadership Team</a></li>
+            <br/>
+            <li><a href="">Privicy Policy</a></li>
+            <br/>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>
