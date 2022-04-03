@@ -79,16 +79,18 @@
         var email =document.querySelector("#email").value;
         var password =document.querySelector("#pass").value;
         // console.log(email,password)
-      
+        var count =0;
          data.map(function(el){
           if(el.email==email && el.password==password){
-              alert("Sign in Successfully =>")
+             count++;
               window.location.href="index.html"
           }
-          else{
-              alert("please enter correct email & password")
-          }
+    
          })
+         if(count>0){
+             alert("Sign in Successfully =>");
+             window.location.href="index.html"
+         }
             
     }
 
